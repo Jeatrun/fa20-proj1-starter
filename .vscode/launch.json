@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Coding/CS61C/project/fa20-proj1-starter",
-      "program": "f:/Coding/CS61C/project/fa20-proj1-starter/build/Debug/outDebug",
+      "cwd": "f:/Coding/CS61C/project/fa20-proj1-starter/fa20-proj1-starter",
+      "program": "f:/Coding/CS61C/project/fa20-proj1-starter/fa20-proj1-starter/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
