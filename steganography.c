@@ -94,9 +94,9 @@ int main(int argc, char **argv)
 {
 	//YOUR CODE HERE
 	//get the filename
-	char *filename=argv[1];
+	
 	//read the file,get the image
-	Image *image=readData(filename);
+	Image *image=readData(argv[1]);
 
 	//evaluate the image,decode it,creat a new one
 	Image *newImage=steganography(image);

@@ -35,7 +35,7 @@ Image *readData(char *filename)
 	Image* img = (Image*)malloc(sizeof(Image));
 
 	//open the file
-	FILE *fp = fopen(strcat(filename,".ppm"),"r");
+	FILE *fp = fopen(filename,"r");
 
 	//read the header
 	fscanf(fp, "P3\n%"SCNu32" %"SCNu32"\n255\n",&img->cols,&img->rows);
